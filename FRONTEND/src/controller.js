@@ -5,6 +5,8 @@ import { dataService } from "./api/data.service.js";
 let users = [];
 let userId = null;
 const nullUser = new Usuario("", null, "", "");
+const submitType = { NEW: 0, UPDATE: 1 };
+let submitState = submitType.NEW;
 
 const loadData = async () => {
   const data = await dataService.load();
@@ -14,8 +16,7 @@ const loadData = async () => {
   view.update(users, nullUser);
 };
 
-const submitType = { NEW: 0, UPDATE: 1 };
-let submitState = submitType.NEW;
+
 
 const getFormInputs = () => {
   return new Usuario(nome.value, idade.value, login.value, senha.value);
