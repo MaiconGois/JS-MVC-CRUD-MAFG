@@ -9,8 +9,7 @@ Here I'm exploring more about MVC design pattern and CRUD in JavaScript.
 
 ### Give it a go?
 
-1. Download it
-    > Be sure you already have node.js onto your system
+1. Check for [Node.js](https://nodejs.org/en) on your PC
 
 2. Then run bellow code to install needed dependencies
 
@@ -23,3 +22,8 @@ Here I'm exploring more about MVC design pattern and CRUD in JavaScript.
     ~~~
     npm start
     ~~~
+---
+
+### Versão 1.0 do projeto
+
+[Primeira Versão](https://github.com/MaiconGois/JS-MVC-CRUD-MAFG/releases/tag/V1.0)
